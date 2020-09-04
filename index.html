@@ -1,12 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
- <meta charset="UTF-8">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>Javascript Basics</title>
-</head>
-<body>
- <h5>Javascript Basics</h5>
- <button onclick="alert('Hello world')">Hello</button>
-</body>
-</html> 
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript Basics</title>
+  </head>
+  <body>
+    <x>Javascript Basics</x>
+    <button onclick="alert('Hello world')">Hello</button>
+    <button class="btn">random button</button>
+    <button class="btn">random button</button>
+    <button class="btn">random button</button>
+    <button class="btn">random button</button>
+    <button class="btn">random button</button>
+    <button class="btn">random button</button>
+    <button class="btn">random button</button>
+    <script>
+      document.querySelectorAll('.btn').forEach((item) => {
+        item.addEventListener('click', () => alert('this is good'))
+      })
+    </script>
+  </body>
+</html>
