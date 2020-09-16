@@ -50,3 +50,16 @@ console.log(allbooks)
 //   'Romeo and Juliet', 'The Lord of the Rings',
 //   'The Shining'
 // ]
+
+// flatten an array of array
+let flattened = [
+  [0, 1],
+  [2, 3],
+  [4, 5]
+].reduce(
+  function (accumulator, currentValue) {
+    return accumulator.concat(currentValue)
+  },
+  []
+)
+// flattened is [0, 1, 2, 3, 4, 5]
