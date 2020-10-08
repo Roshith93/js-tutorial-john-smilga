@@ -4,7 +4,12 @@ const withChildren = getChildren.children;
 console.log(withChildNodes)
 console.log(withChildren)
 
-// first child
+// first element child
 // last child
 console.log(getChildren.firstChild) //text node
-console.log(getChildren.firstElementChild) //<li>a</li>
+console.log(getChildren.firstElementChild) //<li>1</li>
+
+// last element child
+// last child
+console.log(getChildren.lastChild) //text node
+console.log(getChildren.lastElementChild) //<li>4</li>
