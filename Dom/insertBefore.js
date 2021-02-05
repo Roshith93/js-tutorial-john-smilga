@@ -1,0 +1,5 @@
+const getPosition = document.querySelector('.main')
+const newEle = document.createElement('p')
+const data = document.createTextNode('Hello I am new here')
+newEle.appendChild(data)
+document.body.insertBefore(newEle, getPosition)
